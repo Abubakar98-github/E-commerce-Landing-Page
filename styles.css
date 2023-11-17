@@ -39,7 +39,8 @@
 }
 
 .btn:hover {
-  background-color: var(--primary-color-dark);transition: .8s;
+  background-color: var(--primary-color-dark);
+  transition: .8s;
 }
 
 img {
@@ -174,13 +175,24 @@ nav {
   text-align: center;
   padding: 1rem;
 }
+.mar-top{
+  margin-top: 1rem;
+}
 
 .productRating {
   margin-bottom: 5px;
   font-size: 0.8rem;
   color: goldenrod;
 }
+.txt-cen{
+  text-align: center;
+  padding-top: .7rem;
+}
+.str-clr{
+  color: goldenrod;
+  font-size: 0.8rem;
 
+}
 .productCardContent h4 {
   margin-bottom: 5px;
   font-size: 1.2rem;
@@ -200,6 +212,7 @@ nav {
 }
 
 .footerContainer {
+  
   max-width: var(--max-width-1200);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -241,8 +254,11 @@ nav {
   padding: 1rem;
   text-align: center;
   font-size: 0.8rem;
-  color: var(--text-light);
+  /* color: var(--text-light); */
+  color: var(--extra-light);
   border-top: 2px solid var(--extra-light);
+  background-color: var(--primary-color);
+
 }
 
 @media (width < 900px) {
